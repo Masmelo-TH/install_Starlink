@@ -1,0 +1,36 @@
+ติดตั้ง apache
+sudo apt-get install apache2
+
+ติดตั้ง PHP
+sudo apt-get install php
+
+ติดตั้ง git
+sudo apt install git
+
+ดาวโหลด allmon2 มาติดตั้ง 
+sudo git clone https://github.com/AllStarLink/AllMon2.git /var/www/html/allmon2
+
+เข้าไปยัง allmon2
+cd /var/www/html/allmon2
+
+เปลี่ยนชื่อไฟล์
+sudo mv allmon.ini.txt allmon.ini.php
+
+เปลี่ยนชื่อไฟล์
+sudo mv controlpanel.ini.txt controlpanel.ini.php
+
+ทำการเปลี่ยนชื่อไฟล์
+sudo mv /var/www/html/index.html index2.html
+
+ทำการแก้ไขไฟล์
+sudo nano /var/www/html/index.php
+
+ใช่ชุดคำสั่ง
+เครื่องหมายน้อยกว่า?php
+
+<header("Location: /allmon2");
+
+ทดสอบเข้าหน้าเว็บ
+
+แก้ไขหน้าเว็บตาม เว็บ HS2BMI
+https://xlx822.medium.com/ติดตั้ง-allmon2-และ-supermon-ให้-allstar-link-node-d640506821a2
