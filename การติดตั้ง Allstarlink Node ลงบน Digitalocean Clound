@@ -1,0 +1,50 @@
+ไปที่
+cd /tmp
+
+ดาวโหลด (ให้ลบวงเล็บออก ก่อนใช้งาน)
+sudo wget (http://)apt.allstarlink.org/repos/asl_builds/install-allstarlink-repository 
+
+ใช้คำสั่ง
+sudo chmod +x install-allstarlink-repository
+
+ใช้คำสั่ง 
+sudo chmod 777 ./install-allstarlink-repository
+
+อัพเดทระบบปัฎิบัติการ 
+sudo apt-get update
+
+ติดตั้ง curl
+sudo apt-get install curl
+
+ติดตั้ง gnupg
+sudo apt-get install gnupg
+
+ใช้คำสั่ง
+sudo . ./install-allstarlink-repository
+
+ใช้คำสั่ง
+sudo apt-get -y install linux-headers-`uname -r`
+
+ใช้คำสั่ง 
+sudo curl -s http://apt.allstarlink.org/repos/repo_signing.key | apt-key add -
+
+อัพเดทระบบปัฎิบัติการ 
+sudo apt-get update
+
+ใช้คำสั่ง
+sudo apt -y install asl-asterisk
+
+ใช้คำสั่ง
+sudo apt -y install allstar-helpers
+
+ใช้คำสั่ง
+sudo apt -y install asl-dahdi
+
+ใช้คำสั่ง
+sudo apt -y install asl-update-node-list
+
+ติดตั้ง เพื่อเข้าตั้งค่า Node
+sudo asl-menu
+
+ตั้งค่าNODE
+https://xlx822.medium.com/ติดตั้ง-allstar-link-บน-raspberry-pi-229d0b3a0f82
