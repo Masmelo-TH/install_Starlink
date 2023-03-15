@@ -1,8 +1,8 @@
 ไปที่
 cd /tmp
 
-ดาวโหลด (ให้ลบวงเล็บออก ก่อนใช้งาน)
-sudo wget (http://)apt.allstarlink.org/repos/asl_builds/install-allstarlink-repository 
+ดาวโหลด 
+sudo wget http://apt.allstarlink.org/repos/asl_builds/install-allstarlink-repository 
 
 ใช้คำสั่ง
 sudo chmod +x install-allstarlink-repository
