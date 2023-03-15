@@ -26,7 +26,12 @@ sudo mv /var/www/html/index.html index2.html
 sudo nano /var/www/html/index.php
 
 ใช้ชุดคำสั่ง
-<header("Location: /allmon2");
+<?php
+
+header("Location: /allmon2");
+
+
+
 
 ทดสอบเข้าหน้าเว็บ
 
