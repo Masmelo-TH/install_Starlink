@@ -25,9 +25,7 @@ sudo mv /var/www/html/index.html index2.html
 ทำการแก้ไขไฟล์
 sudo nano /var/www/html/index.php
 
-ใช่ชุดคำสั่ง
-เครื่องหมายน้อยกว่า?php
-
+ใช้ชุดคำสั่ง
 <header("Location: /allmon2");
 
 ทดสอบเข้าหน้าเว็บ
