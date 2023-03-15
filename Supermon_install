@@ -1,0 +1,25 @@
+ติดตั้งโปรแกรม WinSCP ลงในเครื่อง PC สามารถดาวโหลดได้ที่
+https://winscp.net/eng/downloads.php
+
+ดาวโหลดไฟล์ Supermon มาไว้ในเครื่อง PC
+https://github.com/AllStarLink/ASL-Supermon/archive/refs/heads/develop.zip
+
+ทำการแตกซิบไฟล์
+
+เปิดโปรแกรม WinSCP
+
+เชื่อมต่อไปยัง Node
+
+ทำการเข้าไปยัง 
+var/www/html/
+
+ทำการลากฟอเดอร์ ในไฟล์ที่ดาวโหลด ในส่วนของ VAR มา ใส่ยัง Server ทั้งหมด
+
+ทำการลากไฟล์ ในฟอเดอร์usr จากที่ดาวโหลดมาไปใส่ไว้ที่ usr/local/sbin
+
+ทำการลากไฟล์ ในฟอเดอร์ etc จากที่ดาวโหลดมาไปใส่ไว้ที่ /etc/apache2/conf-available
+
+ทดสอบเข้า Supermon
+
+แก้ไขหน้าเว็บตาม HS2BMI
+https://xlx822.medium.com/%E0%B8%95%E0%B8%B4%E0%B8%94%E0%B8%95%E0%B8%B1%E0%B9%89%E0%B8%87-allmon2-%E0%B9%81%E0%B8%A5%E0%B8%B0-supermon-%E0%B9%83%E0%B8%AB%E0%B9%89-allstar-link-node-d640506821a2
